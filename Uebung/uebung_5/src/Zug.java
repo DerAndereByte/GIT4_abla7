@@ -5,7 +5,7 @@ public class Zug extends Transportmittel {
         meinZug.durchfuehrenWartung();
         meinZug.meldenVerspaetung();
 
-        Transportmittel meinTransport = new Transportmittel();
+        Transportmittel meinTransport = new Zug();
         meinTransport.durchfuehrenWartung();
         meinTransport.meldenVerspaetung();
     }
